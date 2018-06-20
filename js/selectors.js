@@ -1,5 +1,6 @@
 // declare your functions here...
 
+<<<<<<< HEAD
 /*function paragraphSelector() {
   var parSelect = $('p');
   var allPar = [];
@@ -27,4 +28,24 @@ function divSelector() {
 
 function firstListItem() {
  return $('#pic-list li:first-child')
+=======
+function paragraphSelector() {
+  $('p')
+}
+
+function lastImageSeletor() {
+  $('img:last')
+}
+
+function ninjaBabySelector() {
+  $('#baby-ninja')
+}
+
+function divSelector() {
+  $('div .pics')
+}
+
+function firstListItem() {
+  $('ul .pic-list:first-child')
+>>>>>>> b3bb4c40a36530845bdae28cdc1db25db340b0d2
 }
